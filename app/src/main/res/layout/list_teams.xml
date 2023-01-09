@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_teams"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="15sp"
+    app:cardBackgroundColor="#AD8E70">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tulis_teamid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team ID :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_teamid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tulis_teamid"
+            android:text="Team ID"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating     :  "
+            android:layout_below="@+id/tv_teamid"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        //code
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tulis_rating"
+            android:layout_below="@+id/tv_teamid"
+            android:text="Rating"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        //text
+        <TextView
+            android:id="@+id/tulis_wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wins        :  "
+            android:layout_below="@+id/tulis_rating"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_rating"
+            android:layout_toRightOf="@+id/tulis_wins"
+            android:text="Wins"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        //text
+        <TextView
+            android:id="@+id/tulis_losse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Losses   :  "
+            android:layout_below="@+id/tulis_wins"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_losses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_wins"
+            android:layout_toRightOf="@+id/tulis_losse"
+            android:text="Losses"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+        //text
+        <TextView
+            android:id="@+id/tulis_lastmatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time       :  "
+            android:layout_below="@+id/tulis_losse"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_last_match_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_losses"
+            android:layout_toRightOf="@+id/tulis_lastmatch"
+            android:text="last_match_time"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        //text
+        <TextView
+            android:id="@+id/tulis_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name      :  "
+            android:layout_below="@+id/tulis_lastmatch"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_last_match_time"
+            android:layout_toRightOf="@+id/tulis_nama"
+            android:text="Name"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        //text
+        <TextView
+            android:id="@+id/tulis_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tag          :  "
+            android:layout_below="@+id/tulis_nama"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_toRightOf="@+id/tulis_tag"
+            android:text="Tag"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tv_teamid"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="1sp"
+
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:padding="1dp"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_league"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="15sp"
+    app:cardBackgroundColor="#AD8E70">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+        <TextView
+            android:id="@+id/tulis_leagueid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="League ID :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_leagueid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tulis_leagueid"
+            android:text="league ID"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_tier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_leagueid"
+            android:text="Tier            :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_tier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_leagueid"
+            android:layout_toRightOf="@+id/tulis_tier"
+            android:text="Tier"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tulis_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_tier"
+            android:text="Name         :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tier"
+            android:layout_toRightOf="@+id/tulis_name"
+            android:text="name"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

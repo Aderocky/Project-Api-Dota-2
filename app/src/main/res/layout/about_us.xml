@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_dota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000"
+            android:scaleType="fitXY"
+            android:src="@drawable/heheeh" />
+
+        <TextView
+            android:id="@+id/heh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:fontFamily="serif"
+            android:text="About Developer"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/im_poto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/semoga"
+            app:shapeAppearanceOverlay="@style/roundimageview" />
+
+        <TextView
+            android:id="@+id/tx_ade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im_poto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text="Ade Rocky Saputra"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_ade"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:text="2125250082"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            />
+
+        <ImageView
+            android:id="@+id/im_wa"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/im_poto"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="82dp"
+            android:background="#000"
+            android:gravity="center"
+            android:src="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/im_fc"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/im_poto"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="82dp"
+            android:layout_toRightOf="@+id/im_wa"
+            android:src="@drawable/facebook" />
+        <ImageView
+            android:id="@+id/im_ig"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@+id/im_fc"
+            android:layout_below="@+id/im_poto"
+            android:layout_marginTop="82dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/instagram"
+            />
+        <ImageView
+            android:id="@+id/im_twitter"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@+id/im_ig"
+            android:layout_below="@+id/im_poto"
+            android:layout_marginTop="82dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/twitter"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imt"
+            android:layout_width="165dp"
+            android:layout_height="164dp"
+            android:layout_below="@+id/im_poto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#000"
+            android:scaleType="fitXY"
+            android:src="@drawable/ojan"
+            app:shapeAppearanceOverlay="@style/roundimageview" />
+        <TextView
+            android:id="@+id/tx_ojan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text="Muhammad Fawzan"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_ojan"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:text="2125250074"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            />
+
+        <ImageView
+            android:id="@+id/im_wea"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/imt"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="82dp"
+            android:background="#000"
+            android:gravity="center"
+            android:src="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/im_fb"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/imt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="82dp"
+            android:layout_toRightOf="@+id/im_wea"
+            android:src="@drawable/facebook" />
+        <ImageView
+            android:id="@+id/im_ige"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@+id/im_fb"
+            android:layout_below="@+id/imt"
+            android:layout_marginTop="82dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/instagram"
+            />
+        <ImageView
+            android:id="@+id/im_twittere"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@+id/im_ige"
+            android:layout_below="@+id/imt"
+            android:layout_marginTop="82dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/twitter"
+            />
+
+
+        <ImageView
+            android:id="@+id/footer"
+            android:layout_width="800dp"
+            android:layout_height="229dp"
+            android:layout_below="@+id/im_twittere"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/pootur" />
+
+    </RelativeLayout>
+
+</ScrollView>

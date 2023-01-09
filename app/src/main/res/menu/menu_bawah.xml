@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_heroes"
+        android:icon="@drawable/heroes"
+        android:fontFamily="serif"
+        android:title="Heroes"
+        />
+    <item
+        android:id="@+id/menu_leagues"
+        android:icon="@drawable/league"
+        android:fontFamily="serif"
+        android:title="Leagues"/>
+    <item
+        android:id="@+id/menu_teams"
+        android:icon="@drawable/btnteams"
+        android:fontFamily="serif"
+        android:title="Teams"/>
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_hero"
+    android:onClick="playIT"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="15sp"
+    app:cardBackgroundColor="#AD8E70">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <TextView
+            android:id="@+id/tulis_idhero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Hero                :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_idhero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tulis_idhero"
+            android:text="ID"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_namehero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_idhero"
+            android:text="Name Hero         :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_namehero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_idhero"
+            android:layout_toRightOf="@+id/tulis_namehero"
+            android:text="Name "
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_localname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_namehero"
+            android:text="Local Name        :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_localized_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_namehero"
+            android:layout_toRightOf="@+id/tulis_localname"
+            android:text="localized_name"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_localname"
+            android:text="Primary Attack   :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_primary_attr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_localized_name"
+            android:layout_toRightOf="@+id/tulis_primary"
+            android:text="primary_attr"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_atttype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_primary"
+            android:text="Attack Type         :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_attack_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_primary_attr"
+            android:layout_toRightOf="@+id/tulis_atttype"
+            android:text="attack_type"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tulis_kaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tulis_atttype"
+            android:text="Number Of Feet :  "
+            android:textColor="#A61A1E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_legs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_attack_type"
+            android:layout_toRightOf="@+id/tulis_kaki"
+            android:text="legs"
+            android:textSize="15sp"
+            android:textColor="#A61A1E"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

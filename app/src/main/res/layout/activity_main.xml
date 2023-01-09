@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnv_pilihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shark"
+        app:itemIconTint="@drawable/milih"
+        app:itemTextColor="@drawable/milih"
+        app:menu="@menu/menu_bawah" />
+
+    <ImageButton
+        android:id="@+id/btn_dota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000"
+        android:scaleType="fitXY"
+        android:src="@drawable/heheeh" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/btn_audiostop"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:layout_toLeftOf="@+id/btn_menu"-->
+<!--        android:backgroundTint="#000"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:src="@drawable/ic_baseline_music_off_24" />-->
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#000"
+        android:src="@drawable/ic_baseline_supervisor_account_24" />
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bnv_pilihan"
+        android:layout_below="@id/btn_dota">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/backgroumddota" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="1dp"
+            android:text="Dota 2 adalah game online dengan genre MOBA yang diterbitkan oleh Valve pada tahun 2013.
+Game ini adalah sekuel lanjutan dari Defense of Ancients (DotA). Dota 2 bisa dimainkan secara gratis di PC dengan sistem operasi Microsoft Windows,
+Linux, atau OS X. Game ini juga bisa dimainkan secara gratis melalui Steam.
+Pengembangan Dota 2 sudah dimulai sejak 2009 oleh para pengembang DotA Mod dan Icefrog yang dipekerjakan secara eksklusif oleh Valve sebagai lead designer.
+Saat diperkenalkan kepada publik, game ini mendapatkan pujian dari para kritikus game karena gameplay yang menarik, kualitas yang bagus, serta masih
+mempertahankan beberapa gameplay pendahulu yakno DotA Mod Warcraft 3.
+Dota 2 sukses menjadi game yang paling banyak dimainkan pada pertengahan 2017. Pada saat itu, Dota 2 dimainkan oleh 800.000 pemain dalam satu hari."
+            android:textColor="#A61A1E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
